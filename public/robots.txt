@@ -1,0 +1,79 @@
+# robots.txt for AmrAstha
+
+User-agent: *
+Allow: /
+
+# Crawl-delay for all bots
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://amrastha.com/sitemap.xml
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+
+# Allow specific API endpoints that should be crawled
+Allow: /api/waitlist
+Allow: /api/contact
+
+# Block specific file types
+Disallow: /*.pdf$
+Disallow: /*.doc$
+Disallow: /*.docx$
+
+# Block specific parameters
+Disallow: /*?*
+
+# Allow important pages
+Allow: /$
+Allow: /how-it-works
+Allow: /use-cases
+Allow: /safety
+Allow: /pricing
+Allow: /verify
+Allow: /blog
+Allow: /about
+Allow: /contact
+Allow: /terms
+Allow: /privacy
+
+# User-agent specific rules
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Social media bots
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+# Block bad bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: dotbot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
