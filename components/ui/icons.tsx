@@ -157,3 +157,33 @@ export const MessageCircle = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 )
+export const Globe = (props: SVGProps<SVGSVGElement>) => (
+  <svg {...props} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <circle cx={12} cy={12} r={10} strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M2 12h20M12 2c2.5 2.5 2.5 19.5 0 22"
+    />
+  </svg>
+)
+
+export const Target = (props: SVGProps<SVGSVGElement>) => (
+  <svg {...props} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <circle cx={12} cy={12} r={10} strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
+    <circle cx={12} cy={12} r={6} strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
+    <circle cx={12} cy={12} r={2} strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
+  </svg>
+)
+
+export const Lightbulb = (props: SVGProps<SVGSVGElement>) => (
+  <svg {...props} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M9 18h6M10 22h4M12 2a7 7 0 00-4 12.9V18h8v-3.1A7 7 0 0012 2z"
+    />
+  </svg>
+)
