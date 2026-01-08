@@ -109,7 +109,10 @@ export default function ContactPage() {
                         Call us for urgent matters
                       </p>
                       <a href="tel:+8801234567890" className="text-orange-600 dark:text-orange-400 hover:underline">
-                        +880 1234 567890
+                        +880 1734114388
+                      </a><br></br>
+                      <a href="tel:+8801234567890" className="text-orange-600 dark:text-orange-400 hover:underline">
+                        +880 1922557436
                       </a>
                     </div>
                   </div>
