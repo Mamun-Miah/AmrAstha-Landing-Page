@@ -117,7 +117,7 @@ export default function ContactPage() {
                     </div>
                   </div>
                 </div>
-
+ 
                 <div className="card">
                   <div className="flex items-start space-x-4">
                     <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900/30 rounded-full flex items-center justify-center flex-shrink-0">
